@@ -180,8 +180,11 @@ override.tf.json
 
 # End of https://www.gitignore.io/api/ssh,node,code,macos,terraform
 
-**/backend.tf		# S3 bucket and DynamoDB table names
-*.tfvars		# Terraform input values
+# S3 bucket and DynamoDB table names
+backend.tf
+# Terraform input values
+*.tfvars
 *.*.tfvars
 
-credentials		# IoT device keys
+# IoT device keys
+credentials
