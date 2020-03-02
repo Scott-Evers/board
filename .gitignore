@@ -179,3 +179,8 @@ override.tf.json
 # example: *tfplan*
 
 # End of https://www.gitignore.io/api/ssh,node,code,macos,terraform
+
+backend.tf		# S3 bucket and DynamoDB table names
+*.tfvars		# Terraform input values
+
+credentials		# IoT device keys
